@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <tr>
+        <td>Nhập giá trị độ C:</td>
+        <td><input type="number" id="nhietdoC"></td>
+    </tr>
+    <tr>
+        <td><button type="button" onclick="kq()">Giá trị độ F:</button></td>
+        <input type="number" id="nhietdoF">
+    </tr>
+    <script>
+        let a;
+        function kq() {
+            a = document.getElementById('nhietdoC').value;
+            let giatri = ((9/5 * a) + 32);
+            document.getElementById('nhietdoF').value = giatri;
+        }
+    </script>
+</body>
+</html>

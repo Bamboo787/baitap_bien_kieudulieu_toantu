@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h4 {
+            width: 150px; height: 20px; background-image: linear-gradient(to right, green, red,violet);
+            text-align: left;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Bang diem</legend>
+    
+    <h4>Điểm của sinh viên</h4>
+    <tr>
+        <td>Vật Lý</td>
+        <td><input type="number" id="x"></td>
+    </tr>
+    <tr>
+        <td>Hóa Học</td>
+        <td><input type="number" id="y"></td>
+    </tr>
+    <tr>
+        <td>Sinh Học</td>
+        <td><input type="number" id="z"></td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="tb()">Điểm trung bình:</button>
+        </td>
+        <td>
+            <input type="number" id="trungbinh">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="tg()">Điểm tổng:</button>
+        </td>
+        <td>
+            <input type="number" id="tong">
+        </td>
+    </tr>
+    <script src="baitap1.js"></script>
+</fieldset>
+</body>
+</html>
